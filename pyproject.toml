@@ -13,6 +13,10 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
+[project.urls]
+Homepage = "https://github.com/Tyler-logic/agent-memory-kit"
+Repository = "https://github.com/Tyler-logic/agent-memory-kit"
+
 [project.optional-dependencies]
 dev = ["pytest"]
 

@@ -94,8 +94,7 @@ https://pypi.org/project/agent-memory-kit/
 pip install agent-memory-kit
 ```
 
-Not yet on a public GitHub repo — that's still a checkpoint pending sign-off (see
-`agentcraft-site/PLAN.md`).
+Source: https://github.com/Tyler-logic/agent-memory-kit
 
 ## License
 
