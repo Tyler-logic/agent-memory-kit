@@ -1,0 +1,24 @@
+[project]
+name = "agent-memory-kit"
+version = "0.2.0"
+description = "Four small, dependency-free memory and safety patterns for LLM agents: scratchpad state, fuzzy recall, pre-compaction checkpointing, and permission boundaries."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Tyler-logic", email = "tyler.logicpond@gmail.com" }]
+keywords = ["llm", "agents", "memory", "ai"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["agent_memory_kit*"]
